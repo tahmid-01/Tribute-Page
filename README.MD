@@ -2,7 +2,7 @@
 A simple and elegant Tribute Page built using HTML and CSS. This project is a demonstration of front-end web development skills, showcasing a responsive and visually appealing tribute page.
 
 # 🌟 Live Demo
-View the project live at: Tribute-Page
+View the project live at: [Tribute-Page](https://tribute-page-nu-beige.vercel.app/)
 
 # 📌 Features
 Responsive Design: Optimized for various screen sizes, including mobile, tablet, and desktop.
