@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+#main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+#title {
+    color: #000080;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+#img-div {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    text-align: center;
+    padding: 15px 0;
+    color: #666;
+    font-style: italic;
+}
+
+/* Add these new styles to your existing CSS */
+
+.achievement {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.achievement:hover {
+    transform: translateY(-2px);
+}
+
+.achievement h4 {
+    color: #000080;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.achievement p {
+    color: #555;
+    line-height: 1.6;
+}
+
+#tribute-info h3 {
+    margin: 40px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000080;
+    color: #000080;
+    font-size: 1.5rem;
+}
+
+/* Update the existing #tribute-info style */
+#tribute-info {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+}
+
+#tribute-info h2 {
+    color: #000080;
+    margin-bottom: 20px;
+}
+
+
+
+
+.quote {
+    background-color: #000080;
+    color: white;
+    padding: 40px;
+    margin: 40px 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.quote p {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.quote span {
+    font-size: 1rem;
+}
+
+.learn-more {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#tribute-link {
+    display: inline-block;
+    padding: 15px 30px;
+    font-style: bold;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#tribute-link:hover {
+    background-color: #000066;
+    color: white;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    #title {
+        font-size: 2.5rem;
+    }
+    
+    .quote p {
+        font-size: 1.2rem;
+    }
+}
