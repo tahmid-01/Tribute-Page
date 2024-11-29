@@ -25,9 +25,8 @@ plaintext
 # 🛠️ How to Use
 Clone this repository:
 ```bash
-Copy code
-git clone https://github.com/yourusername/tribute-page.git
-Open index.html in your browser to view the page locally. ```
+git clone https://github.com/yourusername/tribute-page.git ```
+Open index.html in your browser to view the page locally. 
 
 # ✨ Future Improvements
 Add more interactivity using JavaScript.
