@@ -16,7 +16,6 @@ CSS3: For styling and layout.
 
 
 # 📁 Project Structure
-plaintext
 ├── index.html    * Main HTML file
 ├── style.css     * CSS file for styling
 └── README.md     * Project documentation
@@ -26,7 +25,7 @@ plaintext
 Clone this repository:
 ```bash
 git clone https://github.com/yourusername/tribute-page.git 
-```bash
+```
 Open index.html in your browser to view the page locally. 
 
 # ✨ Future Improvements
